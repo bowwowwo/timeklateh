@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me </title>
+    <style>
+        html{
+            font-family: Arial, Helvetica, sans-serif; 
+        }
+        body {
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        table, th, td {
+            border: 1px solid black;
+            border-style: dotted;
+        }
+        th, td{
+            background-color: #53adad;
+        }
+
+        #mainDiv{
+            width: 100vh;
+            padding-left:5px;
+            background-color: wheat;
+            border: 1px solid black;
+
+        }
+    </style>
+
+    
+</head>
+<body>
+    <div id="mainDiv">
+        <h1>Personal page</h1>
+        <nav >
+            <ol>
+                <li><a href="#generalInfo">About me</a></li>
+                <li><a href="#hobbies">Hobbies</a></li>
+                <li><a href="#educationJobs">Education &amp; jobs</a></li>
+                <li><a href="#form">Form</a></li>
+            </ol>
+        </nav>
+        <hr>
+        <article>
+            <h2 id="generalInfo">About me</h2>
+            <p>My name is Toms Gerbaševskis. I am 19. Currently a student at LU (University of Latvia). <br>
+            <a href="https://www.lu.lv/en/">Link to LU</a> <br>
+            <b>My student ID #: tg25032</b>
+            </p>
+        </article>
+        <article>
+            <h2 id="hobbies">Hobbies</h2>
+                <ul>
+                    <li>Sports</li>
+                    <li>Coding</li>
+                    <li>Learning history</li>
+                    <li>Painting</li>
+                </ul>
+        </article>
+        <article>
+            <h2 id="educationJobs">Education &amp; Jobs</h2>
+                <h3>Education</h3>
+                <ol>
+                    <li>Iļģuciems secondary school (has since changed name) (2013-2022)</li>
+                    <li>Riga State German school (2022-2025)</li>
+                    <li>University of Latvia (2025)</li>
+                </ol>
+                <h3>Jobs</h3>
+                <ol>
+                    <li>Summer jobs: 
+                        <ul>
+                            <li>Factory worker at "EMJ metāls" (2022 and 2023)</li>
+                        </ul>
+                    </li>
+                    <li>Helper at Riga State German school (01.09.2025 - now)</li>
+                </ol>
+            </article>
+            <hr>
+            <section>
+                <h3> Pets owned displayed in a table</h3>
+                 <table>
+                    <tr>
+                        <td> </td>
+                        <th>Dog</th>
+                        <th>Cat</th>
+                    </tr>
+                    <tr>
+                        <th>Have</th>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr>
+                        <th>Total</th>
+                        <td colspan="2">1</td>
+                    </tr>
+                    </table> 
+                    <br>
+                    <img src="https://i.pinimg.com/736x/7b/a8/14/7ba814ae74977630817f7481f82ad8fe.jpg" alt="random image I found" width="200" height="215">
+            </section>
+            <hr>
+            <section>
+                <h2>Youtube video</h2>
+                 <iframe width="300" height="200"
+                        src="https://www.youtube.com/embed/cHvQWKao_mE"
+                        title="putnu trailcam video"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                </iframe>
+            </section>
+            <hr>
+            <section>
+                <h2 id="form">Did you like the website?</h2>
+                <div>
+                    <label for="check1">Yes: </label>
+                    <input type="checkbox" id="check1">
+                    <label for="check2">No: </label>
+                    <input type="checkbox" id="check2"> <br>
+                    <input type="submit" value="Submit" onclick="Alert()">
+                </div>
+            </section>
+    </div>
+
+    <script>
+        function Alert() {
+            alert("submitted");
+        }
+    </script>
+</body>
+</html>

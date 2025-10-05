@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--    Input your name, surname, student id in the content of the following meta element -->	
+  <meta name="author" content="Toms Gerbaševkis tg25032">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <!-- Bootstrap CSS, do not remove -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body> <!-- padding top to make navbar not cover up items when clicking on internal links-->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+    <div class="d-flex flex-row bd-highlight">
+      <a class="navbar-brand mx-3">MyPortfolio</a>
+    </div>
+    <section class="ms-auto">
+      <a class="navbar-brand text-secondary" href="#AboutMe">About Me</a>
+      <a class="navbar-brand text-secondary" href="#Skills">Skills</a>
+      <a class="navbar-brand text-secondary" href="#Projects">Projects</a>
+      <a class="navbar-brand text-secondary" href="#Contact">Contact</a>
+    </section>
+  </nav>
+
+  <style>
+    body {
+      padding-top: 56px;
+    }
+    html {
+      scroll-padding-top: 56px;
+      scroll-behavior: smooth;
+    }
+  </style>
+       <!-- ! JOHN DOE-->
+        <br class="mt-4">
+  <section class="container-fluid pb-4">
+    <img src="personal_images/cheef.jpg" class="rounded mx-auto d-block" alt="image of me" width="400" height="250">
+    <h1 class="text-center pt-2" style="font-weight: 600;">John Doe</h1>
+    <h5 class="text-center fw-light">Full-Stack Developer | Problem Solver | Tech Enthusiast</h5>
+  </section>
+  <hr> <!-- ! ABOUT ME-->
+  <article>
+    <div class="px-5 py-4 mx-5" id="AboutMe">
+      <h1 class="" style="font-weight: 600;">About Me</h1>
+      <p>Hello! I'm <i>John</i>, a passionate programmer with a strong background in building modern, responsive, and user-friendly web applications. I enjoy working on challenging projects and <br> learning new technologies.</p>
+    </div>
+  </article>
+  <hr> <!-- ! SKILLS-->
+  <article>
+    <div class="px-5 py-4 mx-5" id="Skills">
+      <h1 class="" style="font-weight: 600;">Skills</h1>
+      <p>Here are some of the technologies I use:</p>
+        <section>
+          <ul class="list-group">
+            <li class="list-group-item">HTML, CSS, JavaScript</li>
+            <li class="list-group-item">React, Node.js</li>
+            <li class="list-group-item">Python, Django</li>
+          </ul>
+        </section>
+      <p class="pt-3">Steps I usually take when starting a new project:</p>
+        <section>
+          <ul class="list-group list-group-numbered pb-3">
+            <li class="list-group-item">Understand client requirements</li>
+            <li class="list-group-item">Plan architecture and design</li>
+            <li class="list-group-item">Implement features and test</li>
+            <li class="list-group-item">Deploy and maintain</li>
+          </ul>
+        </section>
+    </div>
+  </article>
+  <hr> <!-- ! PROJECTS-->
+  <section class="px-5 py-4 mx-5" id="Projects">
+    <h1 class="" style="font-weight: 600;">Projects</h1>
+    <section class="d-flex justify-content-center mt-3">
+        <section class="card border-2">
+          <img class="card-img-top img-fluid" src="images/project1.png" alt="projects1" >
+          <div class="card-body bg-secondary-subtle text-center" style="gray-600;">
+            <h5 class="card-title" style="font-weight: 600;">Portfolio Website</h5>
+            <p class="card-text">A personal website showcasing my skills and work.</p>
+          </div>
+        </section>
+        <section class="card border-2">
+          <img class="card-img-top" src="images/project2.png" alt="projects2">
+          <div class="card-body bg-secondary-subtle text-center" >
+            <h5 class="card-title" style="font-weight: 600;">E-commerce App</h5>
+            <p class="card-text">Online store with cart and checkout system.</p>
+          </div>
+        </section>
+        <section class="card border-2">
+          <img class="card-img-top" src="images/project3.png" alt="projects3">
+          <div class="card-body bg-secondary-subtle text-center">
+            <h5 class="card-title" style="font-weight: 600;">Blog Platform</h5>
+            <p class="card-text">Full-stack blog platform with user authentication.</p>
+          </div>
+        </section>
+    </section>
+  </section>
+  <hr> <!-- ! EXPERIENCE-->
+  <section>
+    <div class="px-5 pt-4 pb-2 mx-5">
+        <h1 class="" style="font-weight: 600;">Experience</h1>
+        <table class="table table-striped table-bordered">
+          <thead class="table-dark">
+            <tr>
+              <th scope="col">Year</th>
+              <th scope="col">Company	</th>
+              <th scope="col">Role</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td scope="row">2021 - Present</th>
+              <td>Tech Solutions Inc.</td>
+              <td>Full-Stack Developer</td>
+            </tr>
+            <tr>
+              <td scope="row">2019 - 2021</th>
+              <td>WebWorks</td>
+              <td>Frontend Developer</td>
+            </tr>
+            <tr>
+              <td scope="row">2018 - 2019</th>
+              <td>Freelance</td>
+              <td>Junior Web Developer</td>
+            </tr>
+          </tbody>
+        </table>
+    </div>
+  </section>
+  <hr> <!-- ! WATCH MY TECH TALK-->
+  <section class="pt-3">
+    <section class="d-flex flex-column">
+      <div>
+        <h1 class="text-center" style="font-weight: 600;">Watch My Tech Talk</h1>
+      </div>
+      <div class="container mb-4">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+            <div class="ratio ratio-16x9">
+              <iframe width="560" src="https://youtu.be/Z1UWsBJ5HgU?si=byXVCVJGzsKbTtPy" title="video" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </section>
+  <hr> <!-- ! CONTACT ME-->
+  <section>
+    <div>
+      <div class="px-5 py-4 mx-5" id="Contact">
+      <h1 class="" style="font-weight: 600;">Contact Me</h1>
+      <p>If you'd like to collaborate or hire me, feel free to reach out:<br class="mb-3">
+
+        Email: johndoe@example.com<br class="mb-3">
+
+        Phone: +123 456 7890
+      </p>
+      <a class="btn btn-dark mt-1" href="https://github.com/" add target="_blank" role="button">GitHub</a>
+      <a class="btn btn-primary mt-1" href="https://lv.linkedin.com/" add target="_blank" role="button">LinkedIn</a>
+    </div>
+  </section>
+  
+  <footer class="bg-dark text-center text-lg-start mt-4">
+    <div class="text-center p-3 text-light pb-4">
+     © 2025 John Doe. All rights reserved.
+  </div>
+  </footer>
+
+  <!-- Bootstrap JS, do not remove -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
