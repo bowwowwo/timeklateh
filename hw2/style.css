@@ -277,5 +277,37 @@ html, body {
 /*! about*/
 
 .about{
+    display:block;
     background-color: #f2f2f2;
+    text-align: center;
+    line-height: 0.5;
+    overflow: hidden;
+}
+
+.about h2{
+    font-family: "Chivo";
+    padding-top: 4rem;
+}
+
+.about p{
+    font-family: "Spectral";
+    padding-bottom: 4rem;
+}
+
+
+
+/* ------------------------------------------------------------------------------------------- */
+/*! bottom*/
+
+.bottom{
+    background-color: #333;
+    color:white;
+}
+
+/* ------------------------------------------------------------------------------------------- */
+/*! footer*/
+
+.footer{
+    background-color: black;
+    color: white    ;
 }
